@@ -1,11 +1,11 @@
 # Site settings
-author: elsa chen
-title: 
+author: Elsa Xue Chen
+title: TECH STYLE
 header-img: img/home-bg.png
 email: snowing222@gmail.com
-copyright_name: elsa chen
+copyright_name: Elsa Xue Chen
 description: > # this means to ignore newlines until "baseurl:"
-  
+  I KNOW...BUT WHY?
 baseurl: "" # the subpath of your site, e.g. /blog
 twitter_username: 
 github_username:  Snowing222
