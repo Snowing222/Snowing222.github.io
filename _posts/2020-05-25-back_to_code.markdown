@@ -1,6 +1,6 @@
 ---
 layout: post
-title:      "back to code"
+title:      "Back To Code"
 date:       2020-05-25 14:59:44 -0400
 permalink:  back_to_code
 ---
