@@ -52,7 +52,9 @@ def box_a_string(string)
 **An unexpected set back at the end of the projects.**
 Although, I checked the content of the website was scrapable at the beginning of the project. When I scraped the cheese_type information page toward the end of the project. I realized there is no special CSS selector to separate cheese_description and wine_pair attribute, and they all are all <p> elements.
 
+
 ![img](https://i.imgur.com/gMcBf3w.jpg[/img])
+
 
 For the sake of extracting the information that I wanted with the knowledge I have. I need to do something wanky. After analysis of the content. I realized that after grabbing all <p> elements. From the last, every 2 paragraphs correspond with one cheese. The first one is the characteristics, the second one is the wine pair. So I use my knowledge of array and extracted the data that I wanted correctly. I know that it is not good real-world practice, but it's a demonstration of my problem-solving ability, and I'm happy that I saved myself from redo this project.
 
