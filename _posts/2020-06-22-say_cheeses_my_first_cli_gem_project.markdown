@@ -10,27 +10,27 @@ I have finished the majority of my CLI project! I want to take a pause here and 
     
  As a new developer, the starting off of the project was the hardest part hands down. Decide between what I want to do and what I'm capable of doing is a struggle. I want to do something useful to me or something I'm interested in. After testing out a few ideas and figured out some of the websites I wanted to build on are not scrapable.  I finally settled down with cheese. Who doesn't like cheese!? 
 
- I decided to build a gem over the website https://www.castellocheese.com/en-us/cheese-types/ . Cheese lovers can explore cheeses by their types, and within each type, they can learn what are the classic cheeses under the category, and they can further learn more about each cheese characteristics and what is the best wine to pair with them. 
+ I decided to build a gem over the website https://www.castellocheese.com/en-us/cheese-types/ . Cheese lovers can explore cheeses by their types, and within each type, they can learn what are the classic cheeses under the category, and they can further learn more about each cheese's characteristics and waht is the best wine to pair with. 
     
 Alright, I have to admit, Ultra-long tech blogs always lost me in the first few paragraphs, so I would like to keep mine short and sweet. Let's get into it. 
 
-**First, I start to write down the workflow from the user's perspective.** 
+**First, I started to write down the workflow from the user's perspective.** 
 I would not be explaining too much here. I think the below chart explains it all. Of course, this is only the final version, I started only a portion of the chart and edited it along the way
 
 ![](https://i.imgur.com/JkO79EU.jpg)
 
-**Then, I build the structure from the developer's point of view. 
+**Then, I built the structure from the developer's point of view. 
 **
 
 ![](https://i.imgur.com/9Botwor.jpg)
 
-After I'm more or less clear of what I want to do. The coding part is the easy part of the project. It did not take me too long to get the apps working. 
+After I was more or less clear of what I wanted to do. The coding part was actually the easy part of the project. It did not take me too long to get the apps working. 
 
 **After the apps works. I started to clean up and refactored my code.**
 
 I extracted some functionalities like #print_list, #valid_input? to make the code more readable. 
 
-**The last part is the fun part. I played around with colorize and added a fun function  like #box_a_string to make it prettier and enhance user experience.**
+**The last part is the fun part. I played around with colorize and added a fun function  like #box_a_string to make the presentation prettier and enhance user experience.**
 
 ```
 def box_a_string(string)
@@ -51,8 +51,10 @@ def box_a_string(string)
 
 **An unexpected set back at the end of the projects.**
 Although, I checked the content of the website was scrapable at the beginning of the project. When I scraped the cheese_type information page toward the end of the project. I realized there is no special CSS selector to separate cheese_description and wine_pair attribute, and they all are all <p> elements.
+
 ![img](https://i.imgur.com/gMcBf3w.jpg[/img])
-For the sake of extracting the information that I wanted with the knowledge I have. I need to do something wanky. After analysis of the content. I realized that after grabbing all <p> elements. From the last, Every 2 paragraphs correspond with one cheese. The first one is the characteristics, the second one is the wine pair. So I use my knowledge of array and extracted the data that I wanted correctly. I know that it is not good real-world practice, but it's a demonstration of my problem-solving ability, and I'm happy that I saved myself from redo this project.
+
+For the sake of extracting the information that I wanted with the knowledge I have. I need to do something wanky. After analysis of the content. I realized that after grabbing all <p> elements. From the last, every 2 paragraphs correspond with one cheese. The first one is the characteristics, the second one is the wine pair. So I use my knowledge of array and extracted the data that I wanted correctly. I know that it is not good real-world practice, but it's a demonstration of my problem-solving ability, and I'm happy that I saved myself from redo this project.
 
 ```
   def self.scrape_cheeses(cheese_type)
