@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "SAY CHEESES! MY FIRST CLI GEM PROJECT"
-date:       2020-06-22 13:28:13 +0000
+date:       2020-06-22 09:28:14 -0400
 permalink:  say_cheeses_my_first_cli_gem_project
 ---
 
