@@ -38,9 +38,7 @@ Theoretically, it makes sense. However, I ran into a problem when I want to quer
 	    Under the hood, it's just pushing or deleting the playdate to attended playdate array.
 	 I create one more join table attend_playdate to join playdate and parent.
 	 A playdate can have many attended_parent(parent) through attend_playdate
-	 A parent can have many attended_playdate(playdate)through attend_playdate. Again, name alias is implemented in this case.
-	 
-	 So far, we alias parent model to commentor, and attended_parent, and playdate to commented_playdate and attended_playdate. To avoid confusion. I alias parent(who created the playdate) as the creator.
+	 A parent can have many attended_playdate(playdate)through attend_playdate. Again, name alias is implemented in this case. So far, we alias parent model to commentor, and attended_parent, and playdate to commented_playdate and attended_playdate. To avoid confusion. I alias parent(who created the playdate) as the creator.
 ![](https://i.imgur.com/Qg90wIO.jpg)
 
 	 
