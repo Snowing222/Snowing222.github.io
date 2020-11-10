@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "PManager-rails-app "
-date:       2020-11-10 19:35:15 +0000
+date:       2020-11-10 14:35:16 -0500
 permalink:  pmanager-rails-app
 ---
 
