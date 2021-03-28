@@ -6,7 +6,7 @@ permalink:  some_tips_on_deploying_your_project_to_heroku
 ---
 
 
-I deployed 3 of my flatiron projects last week and had my share of frustration along the way. It turns out to be a bigger hustle than I expected. Everything works until it doesn't. I just want to share some of my tips and experience.
+I just deployed 3 of my flatiron projects last week and had my share of frustration along the way. It turns out to be a bigger hustle than I expected. Everything works until it doesn't. I just want to share some of my tips and experience.
 
 Preparation Before Deploying:
 1. Rails API should use SQLite as a database by default, if you didn't specify it by running rails new your-app-name-here --api --database=postgresql`when you created the project. You are using the defaulted database Sqlite. You will need to switch if from SQLite to PostgreSQL to be able to deploy your project on Heroku. The procedure is fairly simple as long as you download Postgres and serve it correctly. You can refer this [article](https://medium.com/@virtual_khan/converting-rails-from-sqlite3-to-postgresql-d97023314a14).
