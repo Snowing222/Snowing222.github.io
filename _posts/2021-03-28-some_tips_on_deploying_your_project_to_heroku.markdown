@@ -1,7 +1,7 @@
 ---
 layout: post
-title:      "Some Tips on deploying your project to Heroku!""
-date:       2021-03-28 17:33:18 +0000
+title:      "Some Tips on deploying your project to Heroku!"
+date:       2021-03-28 13:33:18 -0400
 permalink:  some_tips_on_deploying_your_project_to_heroku
 ---
 
